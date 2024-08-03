@@ -137,3 +137,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  dano: {fileID: 8525669204611555558, guid: c0ecdd079cb2f2345bcc985e9ca62b27, type: 3}
