@@ -17,11 +17,11 @@ public class Menu : MonoBehaviour
 
     public void Jogar()
     {
-        SceneManager.LoadScene(".");
+        SceneManager.LoadScene("SampleScene");
     }
     public void AbrirOpcoes()
     {
-        SceneManager.LoadScene("Options");
+        SceneManager.LoadScene("Info");
     }
 
     public void AbrirJogo()
@@ -43,5 +43,11 @@ public class Menu : MonoBehaviour
     public void AbrirMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+    public void Sair()
+    {
+        {
+            Application.Quit();
+        }
     }
 }
