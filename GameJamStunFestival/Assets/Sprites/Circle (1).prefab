@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3224435248595342900}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Tiro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,9 +28,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4961107372861473968}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.44, y: -2.13, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2.4477, y: -1.5702, z: 0}
+  m_LocalScale: {x: 6.3528004, y: 6.3528004, z: 6.3528004}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b432bdc0abd8e24db5ce66c957aa91e, type: 3}
   m_Color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,9 +121,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0028426647, y: -0.011371002}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.08211695
 --- !u!114 &3224435248595342900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,4 +137,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  dano: {fileID: 8525669204611555558, guid: c0ecdd079cb2f2345bcc985e9ca62b27, type: 3}

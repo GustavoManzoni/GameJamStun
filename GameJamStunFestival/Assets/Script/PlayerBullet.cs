@@ -20,7 +20,7 @@ public class PlayerBullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Boss1"))
         {
-            Instantiate(dano, transform.position, transform.rotation);
+            Instantiate(dano, transform.position, Quaternion.identity);
             Destroy(gameObject);
 
 

@@ -10,6 +10,7 @@ public class Boss1 : MonoBehaviour
     public float time, speed;
     GameObject player;
     Animator anim;
+    public int vida;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class Boss1 : MonoBehaviour
      
         player = GameObject.FindWithTag("Player");
         anim = GetComponent<Animator>();
-        
+        vida = 250;
 
 
 
@@ -27,8 +28,13 @@ public class Boss1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
 
+        if (vida == 0) { 
+        
+            
+        
+        
+        }
 
 
         time += Time.deltaTime;

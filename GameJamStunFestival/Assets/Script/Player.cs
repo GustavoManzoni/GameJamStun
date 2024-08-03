@@ -106,6 +106,16 @@ public class Player : MonoBehaviour
     }
 
     //Animação, yes baby
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Tiro"))
+        {
+            Vida -= 1;
+            Destroy(collision.gameObject);
 
+        }
+
+
+    }
 
 }
