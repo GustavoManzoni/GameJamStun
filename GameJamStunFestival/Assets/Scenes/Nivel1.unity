@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 37563762}
   - component: {fileID: 37563761}
   - component: {fileID: 37563760}
+  - component: {fileID: 37563763}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -269,6 +270,26 @@ MonoBehaviour:
   Cor2: {fileID: 0}
   Cor3: {fileID: 0}
   olhandoDireita: 0
+--- !u!95 &37563763
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37563757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa824fde109098346a61c4f030c611ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &424627467
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,6 +301,7 @@ GameObject:
   - component: {fileID: 424627470}
   - component: {fileID: 424627469}
   - component: {fileID: 424627468}
+  - component: {fileID: 424627471}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -353,6 +375,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &424627471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424627467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a7e2883a9b4de4eb7dc04ff4bd771c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Laranja: {fileID: 695997373}
+  Uva: {fileID: 1511138526}
+  Limao: {fileID: 0}
+  Virus: {fileID: 0}
+  Guarana: {fileID: 0}
 --- !u!1 &530350079
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &695997374
 Transform:
   m_ObjectHideFlags: 0
@@ -514,6 +553,7 @@ GameObject:
   - component: {fileID: 859432298}
   - component: {fileID: 859432297}
   - component: {fileID: 859432296}
+  - component: {fileID: 859432300}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -647,6 +687,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &859432300
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859432294}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa824fde109098346a61c4f030c611ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1163045351
 GameObject:
   m_ObjectHideFlags: 0

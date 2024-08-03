@@ -14,10 +14,12 @@ public class Player : MonoBehaviour
     public bool olhandoDireita;
     Animator animator;
 
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         Vida = 3;
         olhandoDireita = true;
     }
