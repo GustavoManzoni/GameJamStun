@@ -790,7 +790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1150380393}
-  projectilePrefab: {fileID: 8261381620615346813, guid: 10e20f90ae79ed4469a5144a8e5a9b9e, type: 3}
+  projectilePrefab: {fileID: 6165284150735603378, guid: 634cf0dbc71ead14baa3302f1caeff06, type: 3}
   orbitDistance: 1.25
   orbitSpeed: 100
   projectileSpeed: 10
