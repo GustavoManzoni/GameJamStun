@@ -26,7 +26,7 @@ public class SelecaoDeNiveis : MonoBehaviour
     public void boss3Funcao()
     {
         boss3.Invoke();
-        QuemVouSer.clicou3 = false;
+       
 
 
     }
