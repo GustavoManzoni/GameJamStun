@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public int Vida;
     public GameObject Cor1, Cor2, Cor3;
     public bool olhandoDireita;
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,52 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            
+            animator.SetInteger("Caminhar", 1);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+           
+            animator.SetInteger("Caminhar", 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            
+            animator.SetInteger("Pular", 3);
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            
+            animator.SetInteger("Pular", 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            
+            animator.SetInteger("Caminhar", 2);
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            
+            animator.SetInteger("Caminhar", 0);
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            
+            animator.SetInteger("Atirar", 5);
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+
+            animator.SetInteger("Atirar", 0);
+        }
+
+
         horizontal = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
@@ -70,4 +117,8 @@ public class Player : MonoBehaviour
     {
         Vida -= 1;
     }
+
+    //Animação, yes baby
+
+    
 }
