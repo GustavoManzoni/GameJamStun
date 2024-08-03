@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             
-            animator.SetInteger("Caminhar", 2);
+            animator.SetInteger("Caminhar", 1);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
