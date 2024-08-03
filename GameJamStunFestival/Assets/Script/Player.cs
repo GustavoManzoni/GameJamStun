@@ -28,50 +28,23 @@ public class Player : MonoBehaviour
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.D))
-        {
-            
-            animator.SetInteger("Caminhar", 1);
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-           
-            animator.SetInteger("Caminhar", 0);
-        }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-            animator.SetInteger("Pular", 3);
-        }
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            
-            animator.SetInteger("Pular", 0);
-        }
 
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            
-            animator.SetInteger("Caminhar", 1);
-        }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            
-            animator.SetInteger("Caminhar", 0);
-        }
 
-        if (Input.GetMouseButtonDown(0))
+
+
+        if (Input.GetAxisRaw("Horizontal") != 0)
         {
-            
-            animator.SetInteger("Atirar", 5);
+            animator.SetBool("Correndo", true);
+
+
         }
-        if (Input.GetMouseButtonUp(0))
+        else
         {
 
-            animator.SetInteger("Atirar", 0);
-        }
+            animator.SetBool("Correndo", false);
 
+        }
 
         horizontal = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
@@ -81,6 +54,18 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && groundCheck)
         {
             rb.AddForce(new Vector2(rb.velocity.x, forcaDePulo * 100));
+            animator.SetBool("Pulando", true);
+
+        }
+        if (rb.velocity.y != 0)
+        {
+            animator.SetBool("Pulando", true);
+
+
+        }
+        if (groundCheck && rb.velocity.y == 0)
+        {
+            animator.SetBool("Pulando", false);
 
 
         }
@@ -122,5 +107,5 @@ public class Player : MonoBehaviour
 
     //Animação, yes baby
 
-    
+
 }
