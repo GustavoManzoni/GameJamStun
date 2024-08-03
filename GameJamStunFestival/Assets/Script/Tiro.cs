@@ -11,6 +11,7 @@ public class Tiro : MonoBehaviour
     private float currentAngle = 0.0f;
     private GameObject Player;
     Animator anim;
+    
     void Update()
     {
         Player = GameObject.FindWithTag("Player");
@@ -74,4 +75,5 @@ public class Tiro : MonoBehaviour
         anim.SetBool("Idle", false);
 
     }
+   
 }

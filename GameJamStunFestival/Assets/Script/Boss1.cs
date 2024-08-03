@@ -9,6 +9,7 @@ public class Boss1 : MonoBehaviour
     public GameObject espinho, spawner1;
     public float time, speed;
     GameObject player;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class Boss1 : MonoBehaviour
         speed = 0.7f;
      
         player = GameObject.FindWithTag("Player");
-        
+        anim = GetComponent<Animator>();
         
 
 
@@ -35,7 +36,8 @@ public class Boss1 : MonoBehaviour
         {
             Atirar();
             time = 0;
-
+            anim.SetBool("Atirar", true);
+            Invoke("atir", 0.4f);
         }
 
        
@@ -51,6 +53,12 @@ public class Boss1 : MonoBehaviour
        
 
 
+
+    }
+    public void atir()
+    {
+
+        anim.SetBool("Atirar", false);
 
     }
   
