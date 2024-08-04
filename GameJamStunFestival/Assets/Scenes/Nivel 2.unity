@@ -272,6 +272,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 408354098}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2383,6 +2384,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 408354098}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2685,6 +2687,22 @@ PrefabInstance:
       propertyPath: menu
       value: 
       objectReference: {fileID: 1871378700}
+    - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: Cor1
+      value: 
+      objectReference: {fileID: 1304099802}
+    - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: Cor2
+      value: 
+      objectReference: {fileID: 309489081}
+    - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: Cor3
+      value: 
+      objectReference: {fileID: 1679644540}
+    - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: perdeu
+      value: 
+      objectReference: {fileID: 408354098}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
 --- !u!1 &1029787954 stripped

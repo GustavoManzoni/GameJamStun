@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public Transform foot;
     public bool groundCheck;
     public int Vida;
-    public GameObject Cor1, Cor2, Cor3, lampada, lampadaA;
+    public GameObject Cor1, Cor2, Cor3, lampada, lampadaA, perdeu;
     public bool olhandoDireita;
     Animator animator;
     public LayerMask groundLayer; 
@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
         }
         if (Vida <= 0)
         {
+            perdeu.SetActive(true);
             Destroy(gameObject);
             Cor1.SetActive(false);
         }

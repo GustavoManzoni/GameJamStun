@@ -25,7 +25,7 @@ public class Nivel2Manager : MonoBehaviour
     public void Final()
     {
 
-        SceneManager.LoadScene("Nivel3");
+        SceneManager.LoadScene("Nivel 3");
 
 
 
