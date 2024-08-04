@@ -10,7 +10,7 @@ public class Lixeira : MonoBehaviour
 
     private void Start()
     {
-        
+        player = GameObject.FindWithTag("Player").transform;
         interactionPrompt.SetActive(false);
     }
 
