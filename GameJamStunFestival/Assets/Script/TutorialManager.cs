@@ -9,13 +9,13 @@ public class TutorialManager : MonoBehaviour
 
     private void Update()
     {
-        if (lixeiras.lixo2Fase2)
+        if (lixeiras.lixo1Fase1)
         {
 
             Cadeado1.SetActive(false);   
 
         }
-        if (lixeiras.lixo3fase3)
+        if (lixeiras.lixo2Fase2)
         {
 
             Cadeado2.SetActive(false);

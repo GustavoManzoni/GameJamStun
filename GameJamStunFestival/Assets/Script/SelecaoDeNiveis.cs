@@ -105,17 +105,17 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
-
+            QuemVouSer.clicou1 = false;
         }
         else if (QuemVouSer.clicou2 == true)
         {
             SceneManager.LoadScene("Nivel 2");
-
+            QuemVouSer.clicou2 = false;
         }
         else if (QuemVouSer.clicou3 == true)
         {
             SceneManager.LoadScene("Nivel 3");
-
+            QuemVouSer.clicou3 = false;
         }
     }
     public void Laranja()
@@ -128,17 +128,17 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
-
+            QuemVouSer.clicou1 = false;
         }
         else if (QuemVouSer.clicou2 == true)
         {
             SceneManager.LoadScene("Nivel 2");
-
+            QuemVouSer.clicou2 = false;
         }
         else if (QuemVouSer.clicou3 == true)
         {
             SceneManager.LoadScene("Nivel 3");
-
+            QuemVouSer.clicou3 = false;
         }
     }
     public void guarana()
@@ -152,17 +152,18 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
+            QuemVouSer.clicou1 = false;
 
         }
         else if (QuemVouSer.clicou2 == true)
         {
             SceneManager.LoadScene("Nivel 2");
-
+            QuemVouSer.clicou2 = false;
         }
         else if (QuemVouSer.clicou3 == true)
         {
             SceneManager.LoadScene("Nivel 3");
-
+            QuemVouSer.clicou3 = false;
         }
 
     }
@@ -176,17 +177,18 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
-                
+            QuemVouSer.clicou1 = false;
+
         }
         else if (QuemVouSer.clicou2 == true)
         {
             SceneManager.LoadScene("Nivel 2");
-
+            QuemVouSer.clicou2 = false;
         }
         else if (QuemVouSer.clicou3 == true)
         {
             SceneManager.LoadScene("Nivel 3");
-
+            QuemVouSer.clicou3 = false;
         }
     }
     public void virus()
@@ -199,17 +201,18 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
+            QuemVouSer.clicou1 = false;
 
         }
         else if (QuemVouSer.clicou2 == true)
         {
             SceneManager.LoadScene("Nivel 2");
-
+            QuemVouSer.clicou2 = false;
         }
         else if (QuemVouSer.clicou3 == true)
         {
             SceneManager.LoadScene("Nivel 3");
-
+            QuemVouSer.clicou3 = false;
         }
 
     }

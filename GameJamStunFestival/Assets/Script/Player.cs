@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public Transform foot;
     public bool groundCheck;
     public int Vida;
-    public GameObject Cor1, Cor2, Cor3, lampada, lampadaA, perdeu;
+    public GameObject Cor1, Cor2, Cor3, lampada, lampadaA, perdeu, Preto;
     public bool olhandoDireita;
     Animator animator;
     public LayerMask groundLayer; 
@@ -84,8 +84,8 @@ public class Player : MonoBehaviour
             
             Destroy(lampada);
             lampadaA.SetActive(true);
-
-
+            Preto.SetActive(true);
+            Invoke("MudC", 1.2f);
         }
     }
 
@@ -116,6 +116,12 @@ public class Player : MonoBehaviour
         animator.SetBool("Idle", false);
     }
 
+    public void MudC()
+    {
+        SceneManager.LoadScene("Creditos"); 
+
+
+    }
     //Animação, yes baby
     private void OnTriggerEnter2D(Collider2D collision)
     {
