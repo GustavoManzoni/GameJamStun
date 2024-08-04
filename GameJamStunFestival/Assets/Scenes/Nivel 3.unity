@@ -273,6 +273,7 @@ MonoBehaviour:
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
   perdeu: {fileID: 408354098}
+  Preto: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2966,6 +2967,7 @@ MonoBehaviour:
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
   perdeu: {fileID: 408354098}
+  Preto: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -5411,9 +5413,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Nivel1Manager, Assembly-CSharp
-        m_MethodName: recomecar
+      - m_Target: {fileID: 547293625}
+        m_TargetAssemblyTypeName: Nivel3Manager, Assembly-CSharp
+        m_MethodName: Recomecar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -17,7 +17,7 @@ public class Nivel3Manager : MonoBehaviour
     public void Recomecar()
     {
 
-        SceneManager.LoadScene("Nivel3");
+        SceneManager.LoadScene("Nivel 3");
 
 
 

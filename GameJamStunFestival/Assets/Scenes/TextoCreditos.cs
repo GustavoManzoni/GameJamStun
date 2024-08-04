@@ -11,14 +11,14 @@ public class TextoCreditos : MonoBehaviour
     void Start()
     {
       rb = GetComponent<Rigidbody2D>();
-        speed = 80;
+        speed = 132;
     }
 
     // Update is called once per frame
     void Update()
     {
         rb.velocity = new Vector2(rb.velocity.x, speed);
-        Invoke("bah", 23.8f);
+        Invoke("bah", 44.6f);
     }
 
     public void bah()
