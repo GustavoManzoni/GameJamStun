@@ -4,42 +4,36 @@ using UnityEngine.UI;
 
 public class Unfade : MonoBehaviour
 {
-    public Image imageToUnfade;
+    public Image imageToFade;
     public float fadeDuration = 2.0f;
-    public GameObject preto;
+
 
     private void Start()
     {
-        Invoke("desat", 1);
-        if (imageToUnfade != null)
+        if (imageToFade != null)
         {
-            // Inicialmente, certifique-se de que a imagem esteja visível
-            var tempColor = imageToUnfade.color;
+            // Inicialmente, certifique-se de que a imagem esteja invisível
+            var tempColor = imageToFade.color;
             tempColor.a = 1f;
-            imageToUnfade.color = tempColor;
+            imageToFade.color = tempColor;
 
-            // Ativar a imagem e iniciar a coroutine de unfade
-            StartCoroutine(nfade());
+            // Ativar a imagem e iniciar a coroutine de fade
+            StartCoroutine(FadeIn());
         }
     }
 
-    private IEnumerator nfade()
+    private IEnumerator FadeIn()
     {
         float elapsedTime = 0.0f;
-        Color tempColor = imageToUnfade.color;
+        Color tempColor = imageToFade.color;
 
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
-            tempColor.a = 1f - Mathf.Clamp01(elapsedTime / fadeDuration);
-            imageToUnfade.color = tempColor;
+            tempColor.a = Mathf.Clamp01(elapsedTime / fadeDuration);
+            imageToFade.color = tempColor;
             yield return null;
         }
-    }
-    void desat()
-    {
-        preto.SetActive(false);
-
     }
 
 }

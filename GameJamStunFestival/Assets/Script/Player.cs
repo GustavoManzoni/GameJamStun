@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         }
         if(lixeiras.quantasLixeiras >= 3)
         {
-
+            
             Destroy(lampada);
             lampadaA.SetActive(true);
 
