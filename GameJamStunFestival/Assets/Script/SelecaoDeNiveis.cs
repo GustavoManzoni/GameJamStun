@@ -165,7 +165,7 @@ public class SelecaoDeNiveis : MonoBehaviour
         if (QuemVouSer.clicou1 == true)
         {
             SceneManager.LoadScene("Nivel1");
-
+                
         }
         else if (QuemVouSer.clicou2 == true)
         {

@@ -270,6 +270,9 @@ MonoBehaviour:
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
   olhandoDireita: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!95 &37563763
 Animator:
   serializedVersion: 5
@@ -1948,6 +1951,9 @@ MonoBehaviour:
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
   olhandoDireita: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!212 &756693185
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2274,6 +2280,9 @@ MonoBehaviour:
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
   olhandoDireita: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!212 &859432299
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4712,7 +4721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2078210516}
   - component: {fileID: 2078210514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

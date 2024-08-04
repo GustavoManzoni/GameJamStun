@@ -6,10 +6,10 @@ public class Boss3 : MonoBehaviour
 {
     public float timer;
     public int vida;
-    public GameObject aviso1, aviso2, aviso3, aviso4, spawner1, spawner2,spawner3, spawner4, broca, broca2;
+    public GameObject aviso1, aviso2, aviso3, aviso4, spawner1, spawner2,spawner3, spawner4, spawner5, broca, broca2, aviso5, lixeira;
     void Start()
     {
-        
+        vida = 280;
     }
 
     // Update is called once per frame
@@ -35,7 +35,13 @@ public class Boss3 : MonoBehaviour
 
 
         }
+        if(vida <= 0)
+        {
 
+            Instantiate(lixeira, transform.position, transform.rotation);
+            Destroy(gameObject);    
+
+        }
 
 
     }
@@ -43,6 +49,7 @@ public class Boss3 : MonoBehaviour
     {
         aviso1.SetActive(true);
         aviso2.SetActive(true);
+        aviso5.SetActive(true);
         Invoke("DesatAviso", 0.7f);
         Invoke("Ataque1Pause", 0.7f);
 
@@ -51,11 +58,13 @@ public class Boss3 : MonoBehaviour
     {
         Instantiate(broca, spawner1.transform.position, spawner1.transform.rotation);
         Instantiate(broca, spawner2.transform.position, spawner2.transform.rotation);
+        Instantiate(broca, spawner5.transform.position, spawner5.transform.rotation);
     }
     public void DesatAviso()
     {
         aviso1.SetActive(false);
         aviso2.SetActive(false);
+        aviso5.SetActive(false);
     }
     public void Ataque2()
     {
@@ -74,5 +83,14 @@ public class Boss3 : MonoBehaviour
     {
         aviso3.SetActive(false);
         aviso4.SetActive(false);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("TiroPlayer")){
+
+            vida -= 10;
+
+
+        }
     }
 }
