@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4534903535081267041}
   m_Layer: 0
   m_Name: spritesheet-laranja_0
-  m_TagString: Untagged
+  m_TagString: TiroPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6165284150735603378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.71, y: 2.51, z: 0}
-  m_LocalScale: {x: 1.6713064, y: 1.6713064, z: 1.6713064}
+  m_LocalPosition: {x: 3.7116, y: 2.5101, z: 0}
+  m_LocalScale: {x: 2.2397559, y: 2.6779685, z: 2.164015}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,9 +121,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0038448742, y: -0.009612231}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.21739963
 --- !u!50 &3901390697634267453
 Rigidbody2D:
   serializedVersion: 4

@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Boss1 : MonoBehaviour
 {
-    public GameObject espinho, spawner1;
+    public GameObject espinho, spawner1, venceu;
     public float time, speed;
     GameObject player;
     Animator anim;
@@ -29,13 +29,13 @@ public class Boss1 : MonoBehaviour
     void Update()
     {
 
-        if (vida == 0) { 
+        if (vida <= 0) { 
         
-            
-        
+            Destroy(gameObject);
+            venceu.SetActive(true);
         
         }
-
+        Debug.Log(vida);
 
         time += Time.deltaTime;
         if (time > 2)
@@ -67,8 +67,21 @@ public class Boss1 : MonoBehaviour
         anim.SetBool("Atirar", false);
 
     }
-  
-   
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("TiroPlayer"))
+        {
+
+            vida -= 10;
+            Destroy(collision.gameObject);
+
+
+
+        }
+
+
+    }
 
 
 

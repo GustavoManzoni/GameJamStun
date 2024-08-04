@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3e73f7d1648f3e459eca5c4ec0d33c2
+guid: 70d9580bfb45e2d41b7d5a9a36554cf0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss2AttackSprite_0
+      name: GuaranaWalkSprite_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 0
-        width: 48
-        height: 60
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc934cab63219a4eaad2c39f864ec0f
-      internalID: 636604879
+      spriteID: fd52c737b803c064c8b6b4c74144a0e9
+      internalID: -1235278992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss2AttackSprite_1
+      name: GuaranaWalkSprite_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 32
         y: 0
-        width: 38
-        height: 60
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b0c6e9e525616e4aa56d42f88e7ba8c
-      internalID: -1765675075
+      spriteID: 0484c12e828e86648ae74f3763d9a62a
+      internalID: -2003327914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuaranaWalkSprite_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e604d856b357a084ebfdec6818bdc592
+      internalID: -156277622
       vertices: []
       indices: 
       edges: []
@@ -157,8 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss2AttackSprite_1: -1765675075
-      Boss2AttackSprite_0: 636604879
+      GuaranaWalkSprite_0: -1235278992
+      GuaranaWalkSprite_2: -156277622
+      GuaranaWalkSprite_1: -2003327914
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

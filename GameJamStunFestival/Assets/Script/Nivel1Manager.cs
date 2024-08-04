@@ -16,4 +16,16 @@ public class Nivel1Manager : MonoBehaviour
 
         SceneManager.LoadScene("Nivel1");
     }
+    public void Sair()
+    {
+        SceneManager.LoadScene("SelecaoDeNiveis");
+
+
+    }
+    public void ProximaFase()
+    {
+        SceneManager.LoadScene("Nivel2");
+
+
+    }
 }

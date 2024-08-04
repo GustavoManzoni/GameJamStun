@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 4444594361909043113}
   - component: {fileID: 4444594361909043114}
   - component: {fileID: 4444594361909043115}
+  - component: {fileID: 6990096180283185525}
+  - component: {fileID: -5589051602588436440}
+  - component: {fileID: -8380607650676102198}
   m_Layer: 0
   m_Name: spritesheet guarana_0
-  m_TagString: Untagged
+  m_TagString: TiroPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4444594361909043116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.436755, y: -3.434899, z: 0}
-  m_LocalScale: {x: 1.548, y: 1.548, z: 1.548}
+  m_LocalScale: {x: 1.8963, y: 2.10915, z: 1.548}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -95,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 4444594361909043116}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a1b52d0135d27874bb989cc3c66a3e9c, type: 2}
+  m_Controller: {fileID: 9100000, guid: a036636c6e90c1e43b293951977bcc23, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -105,3 +108,53 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!58 &6990096180283185525
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444594361909043116}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.22
+--- !u!50 &-5589051602588436440
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444594361909043116}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-8380607650676102198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444594361909043116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984d9da8f50db79498372bf4ba78a33d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dano: {fileID: 8525669204611555558, guid: c0ecdd079cb2f2345bcc985e9ca62b27, type: 3}

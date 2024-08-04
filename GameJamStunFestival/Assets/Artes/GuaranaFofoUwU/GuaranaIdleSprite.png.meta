@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3e73f7d1648f3e459eca5c4ec0d33c2
+guid: 9d63cd414b90caa478770cd6c0107846
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss2AttackSprite_0
+      name: GuaranaIdleSprite_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 0
-        width: 48
-        height: 60
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc934cab63219a4eaad2c39f864ec0f
-      internalID: 636604879
+      spriteID: ac544c20bd0a48048bb6c803359a57ba
+      internalID: 2012800266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss2AttackSprite_1
+      name: GuaranaIdleSprite_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 32
         y: 0
-        width: 38
-        height: 60
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b0c6e9e525616e4aa56d42f88e7ba8c
-      internalID: -1765675075
+      spriteID: d8dbf38e1a0b9b04292948ac00ccb462
+      internalID: 552352946
       vertices: []
       indices: 
       edges: []
@@ -157,8 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss2AttackSprite_1: -1765675075
-      Boss2AttackSprite_0: 636604879
+      GuaranaIdleSprite_0: 2012800266
+      GuaranaIdleSprite_1: 552352946
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

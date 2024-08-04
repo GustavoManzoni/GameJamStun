@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f3e73f7d1648f3e459eca5c4ec0d33c2
+guid: c905fddaf5e5a2147b777efcac577f87
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,10 +108,10 @@ TextureImporter:
       name: Boss2AttackSprite_0
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 0
-        width: 48
-        height: 60
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cc934cab63219a4eaad2c39f864ec0f
-      internalID: 636604879
+      spriteID: fb1ede94257ef3142b0b2d30fadf120f
+      internalID: -1867017092
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: Boss2AttackSprite_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 64
         y: 0
-        width: 38
-        height: 60
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b0c6e9e525616e4aa56d42f88e7ba8c
-      internalID: -1765675075
+      spriteID: 85386ccff3d42e24eb55e5f8c526da5e
+      internalID: -1679787331
       vertices: []
       indices: 
       edges: []
@@ -157,8 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Boss2AttackSprite_1: -1765675075
-      Boss2AttackSprite_0: 636604879
+      Boss2AttackSprite_1: -1679787331
+      Boss2AttackSprite_0: -1867017092
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
