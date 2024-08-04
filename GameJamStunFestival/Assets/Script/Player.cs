@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public Transform foot;
     public bool groundCheck;
     public int Vida;
-    public GameObject Cor1, Cor2, Cor3;
+    public GameObject Cor1, Cor2, Cor3, lampada, lampadaA;
     public bool olhandoDireita;
     Animator animator;
     public LayerMask groundLayer; 
@@ -78,6 +78,14 @@ public class Player : MonoBehaviour
             Cor3.SetActive(false);
             Cor2.SetActive(false);
         }
+        if(lixeiras.quantasLixeiras >= 3)
+        {
+
+            Destroy(lampada);
+            lampadaA.SetActive(true);
+
+
+        }
     }
 
     void Flip()
@@ -125,4 +133,5 @@ public class Player : MonoBehaviour
 public static class lixeiras
 {
     public static bool lixo1Fase1, lixo2Fase2, lixo3fase3;
+    public static int quantasLixeiras;
 }
