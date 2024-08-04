@@ -5,6 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
+    public GameObject Cadeado1, Cadeado2;
+
+    private void Update()
+    {
+        if (lixeiras.lixo2Fase2)
+        {
+
+            Cadeado1.SetActive(false);   
+
+        }
+        if (lixeiras.lixo3fase3)
+        {
+
+            Cadeado2.SetActive(false);
+
+        }
+
+
+
+    }
     public GameObject info;
 
     public void InfoAbrir()
