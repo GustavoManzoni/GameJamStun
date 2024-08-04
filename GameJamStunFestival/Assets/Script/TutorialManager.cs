@@ -3,33 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Nivel2Manager : MonoBehaviour
+public class TutorialManager : MonoBehaviour
 {
     public GameObject info;
-    public void SelecNiveis()
-    {
 
-        SceneManager.LoadScene("SelecaoDeNiveis");
-
-
-
-    }
-    public void Recomecar()
-    {
-
-        SceneManager.LoadScene("Nivel2");
-
-
-
-    }
-    public void Final()
-    {
-
-        SceneManager.LoadScene("Nivel 3");
-
-
-
-    }
     public void InfoAbrir()
     {
         info.SetActive(true);
@@ -40,7 +17,7 @@ public class Nivel2Manager : MonoBehaviour
     }
     public void SairFase()
     {
-        SceneManager.LoadScene("SelecaoDeNiveis");
+        SceneManager.LoadScene("Menu");
         Time.timeScale = 1.0f;
     }
 }

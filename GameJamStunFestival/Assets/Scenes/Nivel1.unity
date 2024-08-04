@@ -272,6 +272,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 408354098}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -937,7 +938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.22745098}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2106,6 +2107,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 408354098}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -3622,7 +3624,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1352019973}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 536875769}
+        m_TargetAssemblyTypeName: Nivel1Manager, Assembly-CSharp
+        m_MethodName: SairFase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1352019973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5365,5 +5379,9 @@ PrefabInstance:
       propertyPath: Cor3
       value: 
       objectReference: {fileID: 1679644540}
+    - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: perdeu
+      value: 
+      objectReference: {fileID: 408354098}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}

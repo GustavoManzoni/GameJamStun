@@ -11,7 +11,7 @@ public class ControladorSom : MonoBehaviour
 
     void Start()
     {
-       
+
         fundoMusical.volume = 1.0f;
 
         
