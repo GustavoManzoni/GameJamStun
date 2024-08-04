@@ -13,22 +13,16 @@ public class Menu : MonoBehaviour
     public GameObject play;
     public GameObject abrirMenu;
 
-    private float volume = 1.0f; // Volume inicial
+    private float volume = 1.0f;
 
     public void Jogar()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Tutorial");
     }
     public void AbrirOpcoes()
     {
         SceneManager.LoadScene("Info");
     }
-
-    public void AbrirJogo()
-    {
-        play.SetActive(true);
-    }
-
     public void FecharOpcoes()
     {
         SceneManager.LoadScene("Menu");
@@ -38,16 +32,5 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Saiu do jogo");
-    }
-
-    public void AbrirMenu()
-    {
-        SceneManager.LoadScene("Menu");
-    }
-    public void Sair()
-    {
-        {
-            Application.Quit();
-        }
     }
 }
