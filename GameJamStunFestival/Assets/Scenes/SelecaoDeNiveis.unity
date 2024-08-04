@@ -907,9 +907,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  Sel1: {fileID: 0}
-  Sel2: {fileID: 0}
-  Sel3: {fileID: 0}
+  Sel1: {fileID: 1802280548}
+  Sel2: {fileID: 462290}
+  Sel3: {fileID: 2123459813}
 --- !u!4 &442197225
 Transform:
   m_ObjectHideFlags: 0
@@ -1535,7 +1535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.7, y: -101.4}
+  m_AnchoredPosition: {x: -27, y: -59}
   m_SizeDelta: {x: 199.3005, y: 77.8158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807827622
