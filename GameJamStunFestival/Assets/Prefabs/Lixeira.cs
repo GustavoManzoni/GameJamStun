@@ -1,4 +1,4 @@
-using UnityEditor.UIElements;
+
 using UnityEngine;
 
 public class Lixeira : MonoBehaviour
@@ -10,7 +10,7 @@ public class Lixeira : MonoBehaviour
 
     private void Start()
     {
-        
+        player = GameObject.FindWithTag("Player").transform;
         interactionPrompt.SetActive(false);
     }
 

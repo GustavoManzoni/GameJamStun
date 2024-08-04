@@ -12,30 +12,35 @@ public class QuemE : MonoBehaviour
         {
             Laranja.SetActive(true);
 
+           
 
         }
         if (QuemVouSer.uva == true)
         {
             Uva.SetActive(true);
 
+            
 
         }
         if (QuemVouSer.limao == true)
         {
             Limao.SetActive(true);
 
+            
 
         }
         if (QuemVouSer.virus == true)
         {
             Virus.SetActive(true);
 
+            
 
         }
         if (QuemVouSer.guarana == true)
         {
             Guarana.SetActive(true);
 
+            
 
         }
     }

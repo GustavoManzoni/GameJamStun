@@ -3,29 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Nivel1Manager : MonoBehaviour
+public class Nivel2Manager : MonoBehaviour
 {
     public GameObject info;
-    // Start is called before the first frame update
-    public void recomecar()
-    {
-        Invoke("CarregarCena", 0.5f);
-
-    }
-    public void CarregarCena()
+    public void SelecNiveis()
     {
 
-        SceneManager.LoadScene("Nivel1");
-    }
-    public void Sair()
-    {
         SceneManager.LoadScene("SelecaoDeNiveis");
 
 
+
     }
-    public void ProximaFase()
+    public void Recomecar()
     {
-        SceneManager.LoadScene("Nivel 2");
+
+        SceneManager.LoadScene("Nivel2");
+
+
+
+    }
+    public void Final()
+    {
+
+        SceneManager.LoadScene("Nivel3");
+
 
 
     }

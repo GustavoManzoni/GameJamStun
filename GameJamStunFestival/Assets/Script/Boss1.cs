@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.UIElements;
 using UnityEngine;
 
 public class Boss1 : MonoBehaviour
@@ -37,8 +36,7 @@ public class Boss1 : MonoBehaviour
         
         }
        
-        Debug.Log(vida);
-
+        
         time += Time.deltaTime;
         if (time > 2)
         {
