@@ -37,4 +37,8 @@ public class Nivel1Manager : MonoBehaviour
     {
         info.SetActive(false);
     }
+    public void SairFase()
+    {
+        SceneManager.LoadScene("SelecaoDeNiveis");
+    }
 }

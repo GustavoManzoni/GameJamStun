@@ -270,6 +270,8 @@ MonoBehaviour:
   Cor1: {fileID: 1304099802}
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
+  lampada: {fileID: 0}
+  lampadaA: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -324,7 +326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &151835219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2132,6 +2134,8 @@ MonoBehaviour:
   Cor1: {fileID: 1304099802}
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
+  lampada: {fileID: 0}
+  lampadaA: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2501,6 +2505,8 @@ MonoBehaviour:
   Cor1: {fileID: 1304099802}
   Cor2: {fileID: 309489081}
   Cor3: {fileID: 1679644540}
+  lampada: {fileID: 0}
+  lampadaA: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2688,7 +2694,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 934454912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 536875769}
+        m_TargetAssemblyTypeName: Nivel1Manager, Assembly-CSharp
+        m_MethodName: SairFase
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &934454912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3569,7 +3587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1166085882
 MonoBehaviour:
   m_ObjectHideFlags: 0
