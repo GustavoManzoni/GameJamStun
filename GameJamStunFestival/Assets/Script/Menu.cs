@@ -21,11 +21,11 @@ public class Menu : MonoBehaviour
     }
     public void AbrirOpcoes()
     {
-        SceneManager.LoadScene("Info");
+        painelOpcoes.SetActive(true);
     }
     public void FecharOpcoes()
     {
-        SceneManager.LoadScene("Menu");
+        painelOpcoes.SetActive(false);
     }
 
     public void SairJogo()
