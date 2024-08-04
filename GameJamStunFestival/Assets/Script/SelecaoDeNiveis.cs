@@ -109,12 +109,12 @@ public class SelecaoDeNiveis : MonoBehaviour
         }
         else if (QuemVouSer.clicou2 == true)
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Nivel 2");
 
         }
         else if (QuemVouSer.clicou3 == true)
         {
-            SceneManager.LoadScene("Nivel3");
+            SceneManager.LoadScene("Nivel 3");
 
         }
     }
@@ -132,12 +132,12 @@ public class SelecaoDeNiveis : MonoBehaviour
         }
         else if (QuemVouSer.clicou2 == true)
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Nivel 2");
 
         }
         else if (QuemVouSer.clicou3 == true)
         {
-            SceneManager.LoadScene("Nivel3");
+            SceneManager.LoadScene("Nivel 3");
 
         }
     }
@@ -156,12 +156,12 @@ public class SelecaoDeNiveis : MonoBehaviour
         }
         else if (QuemVouSer.clicou2 == true)
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Nivel 2");
 
         }
         else if (QuemVouSer.clicou3 == true)
         {
-            SceneManager.LoadScene("Nivel3");
+            SceneManager.LoadScene("Nivel 3");
 
         }
 
@@ -180,12 +180,12 @@ public class SelecaoDeNiveis : MonoBehaviour
         }
         else if (QuemVouSer.clicou2 == true)
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Nivel 2");
 
         }
         else if (QuemVouSer.clicou3 == true)
         {
-            SceneManager.LoadScene("Nivel3");
+            SceneManager.LoadScene("Nivel 3");
 
         }
     }
@@ -203,12 +203,12 @@ public class SelecaoDeNiveis : MonoBehaviour
         }
         else if (QuemVouSer.clicou2 == true)
         {
-            SceneManager.LoadScene("Nivel2");
+            SceneManager.LoadScene("Nivel 2");
 
         }
         else if (QuemVouSer.clicou3 == true)
         {
-            SceneManager.LoadScene("Nivel3");
+            SceneManager.LoadScene("Nivel 3");
 
         }
 
