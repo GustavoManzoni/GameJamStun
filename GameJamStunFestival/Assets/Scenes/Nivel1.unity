@@ -2884,7 +2884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1511138527
 Transform:
   m_ObjectHideFlags: 0
@@ -3040,7 +3040,7 @@ Transform:
   m_GameObject: {fileID: 1590988744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6994835, y: 0.10369414, z: 0.59170127}
-  m_LocalScale: {x: 0.5272, y: 1, z: 1}
+  m_LocalScale: {x: 3.4428363, y: 3.6154563, z: 3.6154563}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1916974517}
@@ -3060,7 +3060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 37563759}
-  projectilePrefab: {fileID: 8261381620615346813, guid: 10e20f90ae79ed4469a5144a8e5a9b9e, type: 3}
+  projectilePrefab: {fileID: 7356834839832887471, guid: 2eacd2fea0df453469605e25fbe91948, type: 3}
   orbitDistance: 1.25
   orbitSpeed: 100
   projectileSpeed: 10
@@ -3106,7 +3106,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0a50ff1f96d72da4d9a8b87008b4e2eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
