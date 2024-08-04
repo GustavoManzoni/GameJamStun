@@ -1,16 +1,20 @@
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.VFX;
 
-public class Lixeira : MonoBehaviour
+public class LixeiraF1 : MonoBehaviour
 {
-    public GameObject interactionPrompt, venceu;
+    public GameObject interactionPrompt, Player, spawner, lixeira;
     public KeyCode interactionKey = KeyCode.E;
-    public float interactionRange = 10.0f;
+    public float interactionRange = 2.0f;
     private Transform player;
+    Rigidbody2D rb;
 
     private void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();   
+        Player = GameObject.FindWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         interactionPrompt.SetActive(false);
     }
 
@@ -36,15 +40,9 @@ public class Lixeira : MonoBehaviour
 
     public void Interact()
     {
-        lixeiras.lixo1Fase1 = true;
+        Instantiate(lixeira, spawner.transform.position, spawner.transform.rotation);
         Destroy(gameObject);
-        
-            venceu.SetActive(true);
-
-
-        
-
     }
 
-
+    
 }

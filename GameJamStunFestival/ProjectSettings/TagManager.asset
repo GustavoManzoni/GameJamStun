@@ -8,6 +8,9 @@ TagManager:
   - Tiro
   - Porta
   - TiroPlayer
+  - Lixeir
+  - esteira
+  - Lixeira
   layers:
   - Default
   - TransparentFX
