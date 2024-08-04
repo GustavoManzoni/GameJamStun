@@ -1,4 +1,4 @@
-using UnityEditor.UIElements;
+
 using UnityEngine;
 
 public class LixeiraF3 : MonoBehaviour
