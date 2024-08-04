@@ -12,21 +12,32 @@ public class SelecaoDeNiveis : MonoBehaviour
     public void boss1Funcao()
     {
         boss1.Invoke();
-
+        QuemVouSer.limao = false;
+        QuemVouSer.Laranja = false;
+        QuemVouSer.guarana = false;
+        QuemVouSer.uva = false;
+        QuemVouSer.virus = false;
 
 
     }
     public void boss2Funcao()
     {
         boss2.Invoke();
-
-
+        QuemVouSer.limao = false;
+        QuemVouSer.Laranja = false;
+        QuemVouSer.guarana = false;
+        QuemVouSer.uva = false;
+        QuemVouSer.virus = false;
 
     }
     public void boss3Funcao()
     {
         boss3.Invoke();
-       
+        QuemVouSer.limao = false;
+        QuemVouSer.Laranja = false;
+        QuemVouSer.guarana = false;
+        QuemVouSer.uva = false;
+        QuemVouSer.virus = false;
 
 
     }
