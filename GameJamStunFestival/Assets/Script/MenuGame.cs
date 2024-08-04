@@ -32,6 +32,7 @@ public class MenuGame : MonoBehaviour
     {
         menu.SetActive(true);
         Time.timeScale = 0f; 
+        
     }
 
     void ResumeGame()
