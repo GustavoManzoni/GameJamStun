@@ -15,6 +15,6 @@ public class Broca : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(8, rb.velocity.y);
+        rb.velocity = new Vector2(11, rb.velocity.y);
     }
 }
