@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Lixeira : MonoBehaviour
 {
-    public GameObject interactionPrompt;
+    public GameObject interactionPrompt, venceu;
     public KeyCode interactionKey = KeyCode.E;
     public float interactionRange = 10.0f;
     private Transform player;
@@ -38,7 +38,11 @@ public class Lixeira : MonoBehaviour
     {
         lixeiras.lixo1Fase1 = true;
         Destroy(gameObject);
+        
+            venceu.SetActive(true);
 
+
+        
 
     }
 

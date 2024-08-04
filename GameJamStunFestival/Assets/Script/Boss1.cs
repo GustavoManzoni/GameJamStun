@@ -36,12 +36,7 @@ public class Boss1 : MonoBehaviour
            
         
         }
-        if(lixeiras.lixo1Fase1 == true)
-        {
-            venceu.SetActive(true);
-
-
-        }
+       
         Debug.Log(vida);
 
         time += Time.deltaTime;
