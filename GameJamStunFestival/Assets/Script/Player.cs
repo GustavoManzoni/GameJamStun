@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     {
 
 
-        
+
 
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) && groundCheck)
         {
-            
+
             animator.SetTrigger("Atirando");
             Invoke("idleTrue", 0.30f);
 
@@ -63,11 +63,11 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, forcaDePulo * 100));
             animator.SetBool("Pulando", true);
 
-           
 
-                animator.SetBool("Idle", true);
 
-            
+            animator.SetBool("Idle", true);
+
+
         }
         if (rb.velocity.y != 0)
         {
@@ -145,8 +145,13 @@ public class Player : MonoBehaviour
 
 
     }
-  
 
+}
+public static class lixeiras
+{
+
+
+    public static bool lixo1Fase1, lixo2Fase2;
 
 
 }

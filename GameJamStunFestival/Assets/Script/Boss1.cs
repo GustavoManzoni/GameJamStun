@@ -32,9 +32,15 @@ public class Boss1 : MonoBehaviour
 
             Instantiate(lixeira, transform.position, Quaternion.identity);
             Destroy(gameObject);
-            venceu.SetActive(true);
+            
            
         
+        }
+        if(lixeiras.lixo1Fase1 == true)
+        {
+            venceu.SetActive(true);
+
+
         }
         Debug.Log(vida);
 
