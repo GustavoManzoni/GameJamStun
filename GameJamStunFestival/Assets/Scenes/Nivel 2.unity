@@ -272,6 +272,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2383,6 +2384,7 @@ MonoBehaviour:
   Cor3: {fileID: 1679644540}
   lampada: {fileID: 0}
   lampadaA: {fileID: 0}
+  perdeu: {fileID: 0}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2679,7 +2681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3950884848103432755, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3950884848924967377, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
       propertyPath: menu
@@ -4385,6 +4387,7 @@ MonoBehaviour:
   spawner1: {fileID: 183947132}
   venceu: {fileID: 0}
   lixeira: {fileID: 1534059180}
+  CL: {fileID: 0}
   time: 0
   speed: 0
   vida: 170
