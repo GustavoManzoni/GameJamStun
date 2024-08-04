@@ -4249,6 +4249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guarana
       objectReference: {fileID: 0}
+    - target: {fileID: 3950884848103432755, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3950884848924967379, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
       propertyPath: Cor1
       value: 
