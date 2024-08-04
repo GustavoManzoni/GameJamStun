@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -29,9 +31,7 @@ public class Player : MonoBehaviour
     {
 
 
-
-
-
+        
 
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
@@ -45,6 +45,13 @@ public class Player : MonoBehaviour
             animator.SetBool("Correndo", false);
 
         }
+        if (Input.GetMouseButtonDown(0) && groundCheck)
+        {
+            
+            animator.SetTrigger("Atirando");
+            Invoke("idleTrue", 0.30f);
+
+        }
 
         horizontal = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
@@ -56,6 +63,11 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(rb.velocity.x, forcaDePulo * 100));
             animator.SetBool("Pulando", true);
 
+           
+
+                animator.SetBool("Idle", true);
+
+            
         }
         if (rb.velocity.y != 0)
         {
@@ -104,7 +116,19 @@ public class Player : MonoBehaviour
     {
         Vida -= 1;
     }
+    public void idleTrue()
+    {
+        animator.SetBool("Idle", true);
+        Invoke("IdleFalse", 0.4f);
 
+
+    }
+    public void IdleFalse()
+    {
+
+        animator.SetBool("Idle", false);
+
+    }
     //Animação, yes baby
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -114,8 +138,15 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
 
         }
+        if (collision.gameObject.CompareTag("Porta"))
+        {
+            SceneManager.LoadScene("SelecaoDeNiveis");
+        }
 
 
     }
+  
+
+
 
 }
