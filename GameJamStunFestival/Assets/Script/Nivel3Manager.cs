@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Nivel3Manager : MonoBehaviour
 {
+    public GameObject info;
     public void SelecNiveis()
     {
 
@@ -28,5 +29,18 @@ public class Nivel3Manager : MonoBehaviour
 
 
 
+    }
+    public void InfoAbrir()
+    {
+        info.SetActive(true);
+    }
+    public void InfoFechar()
+    {
+        info.SetActive(false);
+    }
+    public void SairFase()
+    {
+        SceneManager.LoadScene("SelecaoDeNiveis");
+        Time.timeScale = 1.0f;
     }
 }
