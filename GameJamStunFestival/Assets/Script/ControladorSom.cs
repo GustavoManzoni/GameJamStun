@@ -26,3 +26,4 @@ public class ControladorSom : MonoBehaviour
         fundoMusical.volume = value;
     }
 }
+

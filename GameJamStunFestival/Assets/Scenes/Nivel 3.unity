@@ -1135,7 +1135,7 @@ MonoBehaviour:
   Uva: {fileID: 1511138526}
   Limao: {fileID: 0}
   Virus: {fileID: 0}
-  Guarana: {fileID: 0}
+  Guarana: {fileID: 1722795561}
 --- !u!1 &458883738
 GameObject:
   m_ObjectHideFlags: 0
@@ -4267,6 +4267,11 @@ PrefabInstance:
       objectReference: {fileID: 408354098}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+--- !u!1 &1722795561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3950884848103432755, guid: e7bf5ae2d6ef72d4c9a38affb38777f0, type: 3}
+  m_PrefabInstance: {fileID: 1722795560}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1736146740
 PrefabInstance:
   m_ObjectHideFlags: 0
