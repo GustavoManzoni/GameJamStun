@@ -84,8 +84,8 @@ public class Player : MonoBehaviour
             
             Destroy(lampada);
             lampadaA.SetActive(true);
-            Preto.SetActive(true);
-            Invoke("MudC", 1.2f);
+            Invoke("pretoTrue", 2);
+            Invoke("MudC", 3.2f);
         }
     }
 
@@ -114,6 +114,12 @@ public class Player : MonoBehaviour
     public void IdleFalse()
     {
         animator.SetBool("Idle", false);
+    }
+    public void pretoTrue()
+    {
+
+        Preto.SetActive(true);
+
     }
 
     public void MudC()

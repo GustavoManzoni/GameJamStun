@@ -272,6 +272,7 @@ MonoBehaviour:
   lampada: {fileID: 1559477178}
   lampadaA: {fileID: 1379070957}
   perdeu: {fileID: 0}
+  Preto: {fileID: 1662716928}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2166,6 +2167,7 @@ MonoBehaviour:
   lampada: {fileID: 1559477178}
   lampadaA: {fileID: 1379070957}
   perdeu: {fileID: 0}
+  Preto: {fileID: 1662716928}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
@@ -2518,6 +2520,7 @@ MonoBehaviour:
   lampada: {fileID: 1559477178}
   lampadaA: {fileID: 1379070957}
   perdeu: {fileID: 0}
+  Preto: {fileID: 1662716928}
   olhandoDireita: 0
   groundLayer:
     serializedVersion: 2
