@@ -25,7 +25,7 @@ public class Nivel1Manager : MonoBehaviour
     }
     public void ProximaFase()
     {
-        SceneManager.LoadScene("Nivel2");
+        SceneManager.LoadScene("Nivel 2");
 
 
     }
@@ -40,5 +40,6 @@ public class Nivel1Manager : MonoBehaviour
     public void SairFase()
     {
         SceneManager.LoadScene("SelecaoDeNiveis");
+        Time.timeScale = 1.0f;
     }
 }
