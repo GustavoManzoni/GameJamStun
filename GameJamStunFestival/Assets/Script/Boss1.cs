@@ -37,8 +37,7 @@ public class Boss1 : MonoBehaviour
         
         }
        
-        Debug.Log(vida);
-
+        
         time += Time.deltaTime;
         if (time > 2)
         {
