@@ -10,13 +10,14 @@ public class Lixeira : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         interactionPrompt.SetActive(false);
     }
 
     void Update()
     {
-        float distance = Vector2.Distance(transform.position, player.position);
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        float distance = Vector2.Distance(transform.position, player.transform.position);
 
         if (distance <= interactionRange)
         {
