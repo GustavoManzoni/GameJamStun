@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Nivel1Manager : MonoBehaviour
 {
+    public GameObject info;
     // Start is called before the first frame update
     public void recomecar()
     {
@@ -27,5 +28,13 @@ public class Nivel1Manager : MonoBehaviour
         SceneManager.LoadScene("Nivel2");
 
 
+    }
+    public void InfoAbrir()
+    {
+        info.SetActive(true);
+    }
+    public void InfoFechar()
+    {
+        info.SetActive(false);
     }
 }
