@@ -1674,7 +1674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829824109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.591, y: 0.006, z: -0.3530875}
+  m_LocalPosition: {x: -0.68, y: 0.006, z: -0.3530875}
   m_LocalScale: {x: 0.57238, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1690,7 +1690,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 829824109}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b934bd4b69310444e90fe804e4ec8e03, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2774,7 +2774,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1484499663}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b934bd4b69310444e90fe804e4ec8e03, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2866,7 +2866,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1570151034}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b934bd4b69310444e90fe804e4ec8e03, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3379,7 +3379,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1701695566}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b934bd4b69310444e90fe804e4ec8e03, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3724,7 +3724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800660406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.591, y: 0.006, z: -0.3530875}
+  m_LocalPosition: {x: -0.501, y: 0.006, z: -0.3530875}
   m_LocalScale: {x: 0.57238, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3740,7 +3740,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1800660406}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b934bd4b69310444e90fe804e4ec8e03, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
