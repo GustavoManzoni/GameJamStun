@@ -3620,7 +3620,7 @@ MonoBehaviour:
   venceu: {fileID: 470576787}
   time: 0
   speed: 0
-  vida: 0
+  vida: 250
 --- !u!95 &1686829299
 Animator:
   serializedVersion: 5

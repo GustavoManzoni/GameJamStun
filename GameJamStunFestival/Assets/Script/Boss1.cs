@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Boss1 : MonoBehaviour
 {
-    public GameObject espinho, spawner1, venceu;
+    public GameObject espinho, spawner1, venceu, lixeira;
     public float time, speed;
     GameObject player;
     Animator anim;
@@ -19,8 +19,7 @@ public class Boss1 : MonoBehaviour
      
         player = GameObject.FindWithTag("Player");
         anim = GetComponent<Animator>();
-        vida = 250;
-
+       
 
 
     }
@@ -29,10 +28,12 @@ public class Boss1 : MonoBehaviour
     void Update()
     {
 
-        if (vida <= 0) { 
-        
+        if (vida <= 0) {
+
+            Instantiate(lixeira, transform.position, Quaternion.identity);
             Destroy(gameObject);
             venceu.SetActive(true);
+           
         
         }
         Debug.Log(vida);
